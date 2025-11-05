@@ -14,7 +14,7 @@ import platform
 
 in_pydantic_v2 = False
 try:
-    from pydantic import BaseSettings
+    from pydantic_settings import BaseSettings
 except ImportError:
     in_pydantic_v2 = True
     from pydantic.v1 import BaseSettings
