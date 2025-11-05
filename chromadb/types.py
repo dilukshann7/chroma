@@ -8,7 +8,7 @@ from overrides import override
 from typing_extensions import TypedDict, TypeVar
 from uuid import UUID
 from enum import Enum
-from pydantic import BaseModel
+from pydantic_settings import BaseModel
 
 from chromadb.api.configuration import (
     ConfigurationInternal,
